@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.App {
+  max-width: 600px;
+  margin: auto;
+}
+
+.ProseMirror {
+  font-family: "Courier Prime", Consolas, "Andale Mono WT", "Andale Mono",
+    "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco,
+    "Courier New", Courier, monospace;
+  line-height: 1.75rem;
+  height: 100%;
+  min-height: 80vh;
+  outline: none;
+}
+
 /* Basic editor styles */
 .ProseMirror > * + * {
   margin-top: 0.75em;
@@ -23,9 +41,6 @@
 }
 
 .ProseMirror pre {
-  background: #0d0d0d;
-  color: #fff;
-  font-family: "JetBrainsMono", monospace;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
 }
